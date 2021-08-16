@@ -1,1 +1,0 @@
-cmd_/home/setn/RAM/mt76x2u_driver_linux/mt76x2/modules.order := {   echo /home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2-common.ko;   echo /home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2e.ko;   echo /home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2u.ko; :; } | awk '!x[$$0]++' - > /home/setn/RAM/mt76x2u_driver_linux/mt76x2/modules.order
