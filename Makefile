@@ -12,7 +12,7 @@ modules:
 
 
 install:
-	install -p -m 644 $(MODULE_NAME).ko  $(MODDESTDIR)
+	install -p -m 644 $(MAKEDIR)/$(MODULE_NAME).ko  $(MODDESTDIR)
 	/sbin/depmod -a ${KVER}
 	modprobe $(MODULE_NAME)
 

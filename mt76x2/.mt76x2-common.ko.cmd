@@ -1,0 +1,1 @@
+cmd_/home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2-common.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2-common.ko /home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2-common.o /home/setn/RAM/mt76x2u_driver_linux/mt76x2/mt76x2-common.mod.o;  true

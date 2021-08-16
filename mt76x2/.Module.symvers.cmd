@@ -1,0 +1,1 @@
+cmd_/home/setn/RAM/mt76x2u_driver_linux/mt76x2/Module.symvers := sed 's/ko$$/o/' /home/setn/RAM/mt76x2u_driver_linux/mt76x2/modules.order | scripts/mod/modpost  -a   -o /home/setn/RAM/mt76x2u_driver_linux/mt76x2/Module.symvers -e -i Module.symvers   -T -
